@@ -1,3 +1,17 @@
+"react": {
+       "prefix": "react",
+       "body": [
+         "import React from \"react\"",
+         "",
+         "export default function Name() {",
+         "",
+         "  return (",
+         "",
+         "  )",
+         "}"
+       ],
+       "description": "react"
+},
 "create react base code": {
 		"prefix": "rnb",
 		"body": [
@@ -25,32 +39,4 @@
 			"})"
 		],
 		"description": "create react base code"
-}
-"create react base code": {
-		"prefix": "rnb",
-		"body": [
-			"import React , {useState, useEffect}from 'react';",
-			"import {View,  Button, Modal, Text, StyleSheet, FlatList, TouchableOpacity} from 'react-native'",
-			"",
-			"function useLogic(){",
-			"",
-			"\tuseEffect(() => {",
-			"\t},[])",
-			"",
-			"\treturn {};",
-			"}",
-			"export default function Name(){",
-			"",
-			"\tconst {} = useLogic();",
-			"",
-			"\treturn ();",
-			"",
-			"}",
-			"const styles = StyleSheet.create({",
-			"\tcontainer : {",
-			"",	
-			"\t}",
-			"})"
-		],
-		"description": "create react base code"	
 }
